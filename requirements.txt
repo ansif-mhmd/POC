@@ -1,0 +1,60 @@
+# ============================================================
+# FMCSA Out-of-Service Sales Opportunity AI Agent
+# Core & Azure Production Dependencies (Python 3.10+)
+# ============================================================
+
+# ------------------------------------------------------------
+# Core Application & Data Manipulation
+# ------------------------------------------------------------
+pandas
+requests
+httpx
+streamlit
+sodapy
+pydantic
+python-dotenv
+python-dateutil
+tenacity
+orjson
+
+# ------------------------------------------------------------
+# LLM & AI Agent Orchestration
+# ------------------------------------------------------------
+openai
+azure-ai-projects
+azure-ai-agents
+
+# ------------------------------------------------------------
+# Azure Cloud Infrastructure & Storage
+# ------------------------------------------------------------
+azure-identity
+azure-storage-blob
+azure-data-tables
+azure-keyvault-secrets
+azure-search-documents
+azure-functions
+
+# ------------------------------------------------------------
+# Logging, Telemetry & Observability
+# ------------------------------------------------------------
+opentelemetry-api
+opentelemetry-sdk
+azure-monitor-opentelemetry
+
+# ------------------------------------------------------------
+# HTML Scraping & Web Parsing
+# ------------------------------------------------------------
+beautifulsoup4
+lxml
+
+# ------------------------------------------------------------
+# REST API Layer & Local Web Server
+# ------------------------------------------------------------
+fastapi
+uvicorn[standard]
+
+# ------------------------------------------------------------
+# Testing & Quality Assurance
+# ------------------------------------------------------------
+pytest
+pytest-asyncio
